@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <form action="#" id="login_form">
+        <!-- FORM HEADER -->
+        <div id="form_header">
+          <h1>Login</h1>
+        </div>
+
+        <!-- INPUTS -->
+        <div id="inputs">
+          <!-- EMAIL -->
+          <div class="input-box">
+            <label for="email">
+              E-Mail
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" />
+              </div>
+            </label>
+          </div>
+          <!-- PASSWORD -->
+          <div class="input-box">
+            <label for="password">
+              Password
+              <div class="input-field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="password" id="password" />
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- LOGIN BUTTON -->
+        <button type="submit" id="login_button">Login</button>
+      </form>
+    </main>
+  </body>
+</html>
