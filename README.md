@@ -13,4 +13,4 @@
 
 ## Demo
 
-<a href="https://edkw.github.io/css-simple-login/" target="_blank">https://edkw.github.io/css-simple-login/</a>
+<a href="https://edkw.github.io/css-simple-login-form/" target="_blank">https://edkw.github.io/css-simple-login-form/</a>
